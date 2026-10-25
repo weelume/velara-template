@@ -1,0 +1,50 @@
+{
+  "reference": "https://jiro.build/templates/fintech/ai-budget-tracking-landing-page-velara-ai",
+  "assets": [
+    {
+      "file": "public/templates/velara/hero.mp4",
+      "source": "https://cdn.jiro.build/Velara/Hero%2001.mp4",
+      "license": "参考预览使用的第三方素材，再分发权利待核实"
+    },
+    {
+      "file": "public/templates/velara/globe.mp4",
+      "source": "https://cdn.jiro.build/Velara/make-it-169-and-make-this-animation-like-world-cir.mp4",
+      "license": "参考预览使用的第三方素材，再分发权利待核实"
+    },
+    {
+      "file": "public/templates/velara/avatar-11.jpg",
+      "source": "https://i.pravatar.cc/64?img=11",
+      "license": "参考预览使用的第三方素材，再分发权利待核实"
+    },
+    {
+      "file": "public/templates/velara/avatar-12.jpg",
+      "source": "https://i.pravatar.cc/64?img=12",
+      "license": "参考预览使用的第三方素材，再分发权利待核实"
+    },
+    {
+      "file": "public/templates/velara/avatar-25.jpg",
+      "source": "https://i.pravatar.cc/64?img=25",
+      "license": "参考预览使用的第三方素材，再分发权利待核实"
+    },
+    {
+      "file": "public/templates/velara/avatar-33.jpg",
+      "source": "https://i.pravatar.cc/64?img=33",
+      "license": "参考预览使用的第三方素材，再分发权利待核实"
+    },
+    {
+      "file": "public/templates/velara/avatar-47.jpg",
+      "source": "https://i.pravatar.cc/64?img=47",
+      "license": "参考预览使用的第三方素材，再分发权利待核实"
+    },
+    {
+      "file": "public/templates/velara/avatar-48.jpg",
+      "source": "https://i.pravatar.cc/64?img=48",
+      "license": "参考预览使用的第三方素材，再分发权利待核实"
+    },
+    {
+      "file": "public/templates/velara/fonts",
+      "source": "MiSans / Google Fonts Poppins",
+      "license": "保留随附字体许可"
+    }
+  ]
+}

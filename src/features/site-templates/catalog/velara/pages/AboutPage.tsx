@@ -1,0 +1,5 @@
+'use client';
+import type { SiteTemplatePageProps } from '../../../types';
+import { Interior } from '../components/Interior';
+import { Reveal, Icon } from '../components/ui';
+export default function AboutPage({locale='zh',basePath}:SiteTemplatePageProps){return <Interior locale={locale} basePath={basePath} title={locale==='zh'?'财务的清晰感\n也是生活的从容感':'Financial clarity\nfor a calmer everyday life'} description={locale==='zh'?'以简洁的体验，让复杂信息变得容易理解。':'A simple experience that makes complex information easier to understand.'}><div className="va-about-grid">{['eye','chart','shield'].map((icon,i)=><Reveal key={icon} className="va-glass" delay={i*.1}><Icon name={icon}/><h2>{locale==='zh'?['清晰优先','目标驱动','边界透明'][i]:['Clarity first','Goal led','Transparent boundaries'][i]}</h2><p>{locale==='zh'?['让每笔支出和每项预算都有清楚的表达。','用可理解的进度，呈现长期目标的每一步。','这是前端模板，所有账户与金额都是演示数据。'][i]:['Give every expense and budget a clear expression.','Make every step toward longer-term goals understandable.','This frontend template uses illustrative accounts and balances.'][i]}</p></Reveal>)}</div></Interior>}
