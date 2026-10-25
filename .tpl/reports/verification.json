@@ -3,9 +3,9 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-25T14:26:51.445Z",
-  "sourceCommit": "360b0ed3372a018a011c9e12749d179eaeea1b94",
-  "sourceDigest": "687ebd18420f1c6d0dfe5285a0356ad5573dbdc3c55cb373a47e2709449d8070",
+  "checkedAt": "2026-10-25T15:23:04.672Z",
+  "sourceCommit": "9f60097d3fbea6d43af2a990b08506cfbaaafcd3",
+  "sourceDigest": "c93859a8c270a36116c0e1e9fddab875bb1ac05fb1cd8d660ebf14fabe7d80b3",
   "environment": {
     "platform": "linux",
     "arch": "x64",
@@ -25,8 +25,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T14:25:10.115Z",
-      "finishedAt": "2026-10-25T14:25:11.954Z"
+      "startedAt": "2026-10-25T15:19:28.845Z",
+      "finishedAt": "2026-10-25T15:19:30.999Z"
     },
     {
       "id": "lint",
@@ -38,8 +38,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T14:25:11.958Z",
-      "finishedAt": "2026-10-25T14:25:15.301Z"
+      "startedAt": "2026-10-25T15:19:31.004Z",
+      "finishedAt": "2026-10-25T15:19:34.435Z"
     },
     {
       "id": "test",
@@ -51,8 +51,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T14:25:15.304Z",
-      "finishedAt": "2026-10-25T14:25:16.118Z"
+      "startedAt": "2026-10-25T15:19:34.440Z",
+      "finishedAt": "2026-10-25T15:19:35.723Z"
     },
     {
       "id": "build",
@@ -64,8 +64,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T14:25:16.121Z",
-      "finishedAt": "2026-10-25T14:25:34.143Z"
+      "startedAt": "2026-10-25T15:19:35.728Z",
+      "finishedAt": "2026-10-25T15:19:54.247Z"
     }
   ],
   "services": [
@@ -73,7 +73,7 @@
       "id": "web",
       "status": "passed",
       "stopped": true,
-      "checkedAt": "2026-10-25T14:26:08.201Z",
+      "checkedAt": "2026-10-25T15:22:59.411Z",
       "reason": "本地生产服务在隔离端口验证22条双语路径后停止，仅停止本次创建的进程。"
     }
   ],
