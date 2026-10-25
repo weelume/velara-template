@@ -1,0 +1,86 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-25T14:26:51.445Z",
+  "sourceCommit": "360b0ed3372a018a011c9e12749d179eaeea1b94",
+  "sourceDigest": "687ebd18420f1c6d0dfe5285a0356ad5573dbdc3c55cb373a47e2709449d8070",
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm@9.15.4",
+    "cleanDirectory": false,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T14:25:10.115Z",
+      "finishedAt": "2026-10-25T14:25:11.954Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T14:25:11.958Z",
+      "finishedAt": "2026-10-25T14:25:15.301Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T14:25:15.304Z",
+      "finishedAt": "2026-10-25T14:25:16.118Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T14:25:16.121Z",
+      "finishedAt": "2026-10-25T14:25:34.143Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-25T14:26:08.201Z",
+      "reason": "本地生产服务在隔离端口验证22条双语路径后停止，仅停止本次创建的进程。"
+    }
+  ],
+  "limitations": [
+    "类型、lint、测试、构建和HTTP服务检查在本地Linux文件系统完成；12张标准视口截图在Windows本机独立无登录Chrome中采集。",
+    "截图覆盖首页、功能、博客与联系；无横向溢出、损坏图片或页面脚本异常；首屏视频已实际播放。",
+    "截图仅证明拍摄时刻的显示状态，原站完整三端动效逐帧一致性、系统减少动态和全部交互矩阵未完成。",
+    "第三方参考设计、视频及头像商业再分发许可未核实，listed=false、redistributionAllowed=false。"
+  ]
+}

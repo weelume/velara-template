@@ -17,12 +17,121 @@
   ],
   "summary": "紫色光束视频、动态资产图表、玻璃卡片和全球支付视频组成的双语智能财务官网。",
   "accentColor": "#a855f7",
-  "cover": null,
-  "screenshots": [],
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Velara PC 首页",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-features.webp",
+      "alt": "Velara PC 功能",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/desktop-blog.webp",
+      "alt": "Velara PC 博客",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "Velara PC 联系",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "Velara iPad 首页",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-features.webp",
+      "alt": "Velara iPad 功能",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/tablet-blog.webp",
+      "alt": "Velara iPad 博客",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "Velara iPad 联系",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Velara H5 首页",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-features.webp",
+      "alt": "Velara H5 功能",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "features"
+    },
+    {
+      "src": "assets/mobile-blog.webp",
+      "alt": "Velara H5 博客",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "Velara H5 联系",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    }
+  ],
   "$schema": "./schemas/template.schema.json",
   "format": "git-template",
   "formatVersion": "0.2.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "stack": [
     "React",
     "Next.js",

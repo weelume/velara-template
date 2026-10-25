@@ -20,14 +20,91 @@ export const velaraTemplate:SiteTemplate={...{
   "accentColor": "#a855f7",
   "cover": "/templates/velara/screenshots/desktop-home.webp",
   "screenshots": [
-    {
-      "src": "/templates/velara/screenshots/desktop-home.webp",
-      "alt": "Velara 首页（待采集真实截图）",
-      "device": "desktop",
-      "width": 1440,
-      "height": 1000
-    }
-  ]
+  {
+    "src": "/templates/velara/screenshots/desktop-home.webp",
+    "alt": "Velara PC 首页",
+    "device": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "src": "/templates/velara/screenshots/desktop-features.webp",
+    "alt": "Velara PC 功能",
+    "device": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "src": "/templates/velara/screenshots/desktop-blog.webp",
+    "alt": "Velara PC 博客",
+    "device": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "src": "/templates/velara/screenshots/desktop-contact.webp",
+    "alt": "Velara PC 联系",
+    "device": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "src": "/templates/velara/screenshots/tablet-home.webp",
+    "alt": "Velara iPad 首页",
+    "device": "tablet",
+    "width": 834,
+    "height": 1180
+  },
+  {
+    "src": "/templates/velara/screenshots/tablet-features.webp",
+    "alt": "Velara iPad 功能",
+    "device": "tablet",
+    "width": 834,
+    "height": 1180
+  },
+  {
+    "src": "/templates/velara/screenshots/tablet-blog.webp",
+    "alt": "Velara iPad 博客",
+    "device": "tablet",
+    "width": 834,
+    "height": 1180
+  },
+  {
+    "src": "/templates/velara/screenshots/tablet-contact.webp",
+    "alt": "Velara iPad 联系",
+    "device": "tablet",
+    "width": 834,
+    "height": 1180
+  },
+  {
+    "src": "/templates/velara/screenshots/mobile-home.webp",
+    "alt": "Velara H5 首页",
+    "device": "mobile",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "src": "/templates/velara/screenshots/mobile-features.webp",
+    "alt": "Velara H5 功能",
+    "device": "mobile",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "src": "/templates/velara/screenshots/mobile-blog.webp",
+    "alt": "Velara H5 博客",
+    "device": "mobile",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "src": "/templates/velara/screenshots/mobile-contact.webp",
+    "alt": "Velara H5 联系",
+    "device": "mobile",
+    "width": 390,
+    "height": 844
+  }
+]
 },surfaces:[{id:'site',name:'智能财务官网',platform:'pc',locales:['zh','en'],pages:[
 {slug:"",title:"首页",localizedTitles:{en:"Home"},load:()=>import('./pages/HomePage')},
 {slug:"features",title:"产品功能",localizedTitles:{en:"Features"},load:()=>import('./pages/FeaturesPage')},
